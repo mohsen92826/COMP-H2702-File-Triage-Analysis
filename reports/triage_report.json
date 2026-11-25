@@ -1,0 +1,57 @@
+{
+    "summary": {
+        "files_analysed": 5,
+        "known_files": 3,
+        "unknown_files": 2,
+        "duplicate_groups": 1
+    },
+    "files": [
+        {
+            "filename": "sample_a.txt",
+            "extension": ".txt",
+            "size_bytes": 153,
+            "last_modified": "2026-11-25 08:36:52",
+            "sha256": "0682153a5a559dbbb265e02db83455d4f8ae7a0121643439055280d289c437ad",
+            "status": "KNOWN"
+        },
+        {
+            "filename": "sample_b.txt",
+            "extension": ".txt",
+            "size_bytes": 153,
+            "last_modified": "2026-11-25 08:36:52",
+            "sha256": "0682153a5a559dbbb265e02db83455d4f8ae7a0121643439055280d289c437ad",
+            "status": "KNOWN"
+        },
+        {
+            "filename": "sample_c.txt",
+            "extension": ".txt",
+            "size_bytes": 154,
+            "last_modified": "2026-11-25 08:36:52",
+            "sha256": "776e6bb134664392f337a18cbb3757a8a9d35a43c874b14334d77fb0e6cc359a",
+            "status": "UNKNOWN"
+        },
+        {
+            "filename": "sample_d.bin",
+            "extension": ".bin",
+            "size_bytes": 2048,
+            "last_modified": "2026-11-25 08:36:52",
+            "sha256": "ebdf6e5999be272c66881adf12358e341385ec8f291cecaf293af9fb8b166c54",
+            "status": "KNOWN"
+        },
+        {
+            "filename": "sample_e.bin",
+            "extension": ".bin",
+            "size_bytes": 537,
+            "last_modified": "2026-11-25 08:36:52",
+            "sha256": "7676611ef9c01f00a97c51181218c37628753ede5705692a3dad54eb68c11450",
+            "status": "UNKNOWN"
+        }
+    ],
+    "duplicates": {
+        "0682153a5a559dbbb265e02db83455d4f8ae7a0121643439055280d289c437ad": [
+            "sample_a.txt",
+            "sample_b.txt"
+        ]
+    },
+    "errors": []
+}
